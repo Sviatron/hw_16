@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: green;
+}
+.bg-box::before {
+    content: "";
+    display: block;
+    background-image: url(./images/pole-zelen-trava-dom-derevya.webp);
+    width: 550px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
